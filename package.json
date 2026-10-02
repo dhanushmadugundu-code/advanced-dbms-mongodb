@@ -1,0 +1,38 @@
+{
+  "name": "advanced-dbms-mongodb",
+  "version": "1.0.0",
+  "description": "Smart E-Commerce Management System using MongoDB - Advanced DBMS Term Project",
+  "main": "src/setup/createDatabases.js",
+  "type": "commonjs",
+  "scripts": {
+    "setup:databases": "node src/setup/createDatabases.js",
+    "seed": "node src/seed/seedDatabase.js",
+    "seed:all": "node src/seed/seedDatabase.js",
+    "validate": "node src/validation/validateDatabase.js",
+    "crud": "node src/crud/crudDemo.js",
+    "queries": "node src/queries/advancedQueries.js",
+    "demo": "node src/demo/runFullDemo.js",
+    "crud:customer": "node src/crud/customerCrud.js",
+    "crud:product": "node src/crud/productCrud.js",
+    "crud:order": "node src/crud/orderCrud.js",
+    "crud:inventory": "node src/crud/inventoryCrud.js",
+    "crud:payment": "node src/crud/paymentCrud.js",
+    "crud:analytics": "node src/crud/analyticsCrud.js",
+    "queries:advanced": "node src/queries/advancedQueries.js",
+    "aggregation:pipelines": "node src/aggregation/aggregationPipelines.js"
+  },
+  "keywords": [
+    "mongodb",
+    "nosql",
+    "advanced-dbms",
+    "aggregation",
+    "ecommerce",
+    "database-architecture"
+  ],
+  "author": "Advanced DBMS Team (6 Members)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.8.0"
+  }
+}
